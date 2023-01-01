@@ -20,7 +20,7 @@ class CategoryController extends Controller
 
             'category_name' => $request->category_name,
             'details' => $request->details,
-            'phone-number' => $request->phone-number
+            'phone-number' => $request->phone->number
         ]);
         return redirect()->back();
 
